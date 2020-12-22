@@ -36,6 +36,7 @@ function setup(){
 
     bird = new Bird(100,100);
     testbx = new Pig(100,100,100,100);
+    cookie = new Pig(100,100,100,100);
 }
 
 function draw(){
@@ -52,6 +53,7 @@ function draw(){
     box4.display();
     pig3.display();
     log3.display();
+    cookie.display();
 
     box5.display();
     log4.display();
